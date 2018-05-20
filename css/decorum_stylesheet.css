@@ -1,0 +1,98 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container-fluid{
+    overflow: hidden;
+    margin: 0;
+}
+
+/* navigation section begins */
+nav{
+    width: 100%;
+}
+ul#navbar li {
+    text-align: right;
+    margin-left: 30px;
+}
+/* navigation ends */
+
+/* carousel */
+#homeWelcomeCarousel{
+    height: 45em;
+}
+
+.container-fluid #homeWelcomeCarousel{
+	margin: 0px;
+    overflow: visible;
+    padding: 0px;
+} 
+
+.carousel-inner > .carousel-item >img{
+    height : 700px;
+    width : 100%;
+  }
+
+  /* home service section & cards */
+
+  .homeServices{
+      padding: 30px;
+  }
+
+  .homeServices i{
+    float: right;
+    color: orange;
+  }
+
+  .card{
+      /* margin-right: 500px; */
+  }
+
+
+
+/* ends here */
+
+
+/* footer */
+footer{
+    background-color:   #323031;
+    color: whitesmoke;
+  }
+ 
+ .list-div ul {
+     margin: 0px;
+     padding: 0px;
+}
+
+ .list-div ul li {
+      list-style: none;
+  }
+  
+  .list-div ul li a{
+    color: #B3B6B7;
+  }
+
+  footer h1 a{
+    color: white;
+  }
+
+  footer .row div{
+      overflow: hidden;
+  }
+  
+  footer .form-div input{
+      float: left;
+  }
+  
+  footer .input-group{
+      float: left;
+  }
+
+  .socialMediaLogos ul li{
+      display: inline;
+      margin-right: 50px;
+  }
+
+  .copyright{
+      color: #5F6A6A;
+  }

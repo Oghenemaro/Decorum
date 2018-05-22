@@ -33,6 +33,10 @@ ul#navbar li {
     width : 100%;
   }
 
+  .carousel-caption h1{
+      font-size: 50px;
+  }
+
   /* home service section & cards */
 
   .homeServices{
@@ -41,11 +45,11 @@ ul#navbar li {
 
   .homeServices i{
     float: right;
-    color: orange;
+    color: #F39C12;
   }
 
   .card{
-      /* margin-right: 500px; */
+      box-shadow: 2px 2px 12px #B3B6B7;
   }
 
 
@@ -57,15 +61,22 @@ ul#navbar li {
 footer{
     background-color:   #323031;
     color: whitesmoke;
+    width: 100%;
   }
  
+  .list-div{
+    /* border: 1px solid red; */
+  }
+
  .list-div ul {
      margin: 0px;
      padding: 0px;
+     
 }
 
  .list-div ul li {
       list-style: none;
+      font-size: 15px;
   }
   
   .list-div ul li a{
@@ -76,10 +87,6 @@ footer{
     color: white;
   }
 
-  footer .row div{
-      overflow: hidden;
-  }
-  
   footer .form-div input{
       float: left;
   }
@@ -95,4 +102,9 @@ footer{
 
   .copyright{
       color: #5F6A6A;
+  }
+
+  .contactForm{
+      padding: 0px;
+      
   }

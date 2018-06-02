@@ -56,6 +56,43 @@ ul#navbar li {
 
 /* ends here */
 
+/* Home Quick Service Access */
+.quickServiceRow{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    z-index: 1;
+    width: 70%;
+    background-color: #ECF0F1;
+    opacity: 0.5;
+}
+
+.quickServiceRow h1{
+    font-size: 9em;
+    color: #F39C12;
+    opacity: 1;
+}
+/* ends here */
+
+/* contact page */
+.officeDetails i{
+    color: #F39C12;
+}
+
+.officeDetails .row {
+    margin: 20px;
+}
+
+.hrClientInfo{
+    width: 80%;
+}
+
+textarea{
+    width: 90%;
+}
+
+/* contact ends here */
+
 
 /* footer */
 footer{
